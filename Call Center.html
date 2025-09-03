@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>M4A CallCenter</title>
+</head>
+<body>
+  <h1>Boldyn Calls</h1>
+
+  <button onclick="playSound('Thanks for calling.m4a')">Thanks for calling</button>
+  <button onclick="playSound('student or staff.m4a')">student or staff</button>
+  <button onclick="playSound('opencase.m4a')">open case</button>
+  <button onclick="playSound('new case.m4a')">new case</button>
+  <button onclick="playSound('calling from.m4a')">calling from</button>
+  <button onclick="playSound('your email.m4a')">your email</button>
+  <button onclick="playSound('building and room.m4a')">building and room</button>
+  <button onclick="playSound('case number.m4a')">case number</button>
+  <button onclick="playSound('thanks for time.m4a')">thanks for time</button>
+  <button onclick="playSound('reach out to you.m4a')">reach out to you</button>
+  <button onclick="playSound('created a work order.m4a')">created a work order</button>
+  <button onclick="playSound('end thanks for calling.m4a')">end thanks for calling</button>
+  <button onclick="playSound('going to escalate.m4a')">going to escalate</button>
+
+<h1>JByrd Promos</h1>
+
+
+  <button onclick="playSound('thanks4calling.m4a')">Thanks 4 calling</button>
+  <button onclick="playSound('callingfrom.m4a')">Calling From?</button>
+  <button onclick="playSound('studentorstaff.m4a')">Student or Staff?</button>
+  <button onclick="playSound('existingornew.m4a')">Old/New Case</button>
+  <button onclick="playSound('email address.m4a')">What is your email?</button>
+  <button onclick="playSound('buildingroom.m4a')">Building and Room number?</button>
+  <button onclick="playSound('numbertoreach.m4a')">is this your number _____?</button>
+  <button onclick="playSound('newcaseconfirm.m4a')">New Case Confirmation</button>
+  <button onclick="playSound('howcanihelp.m4a')">How can I help?</button>
+ <button onclick="playSound('previouslyworking.m4a')">Previously working?</button>
+  <button onclick="playSound('whichnetwork.m4a')">Which network</button>
+  <button onclick="playSound('macaddress.m4a')">Mac Address?</button>
+  <button onclick="playSound('haveagreatday.m4a')">Great Day!</button>
+  <button onclick="playSound('setup4workorder.m4a')">Setup for WO</button>
+  <button onclick="playSound('resolveconfirm.m4a')">All Resolved?</button>
+  <button onclick="playSound('anythingelse.m4a')">Anything else?</button>
+  <button onclick="playSound('empathy1.m4a')">Empathy 1</button>
+  <button onclick="playSound('empathy2.m4a')">Empathy 2</button>
+  <button onclick="playSound('empathy4.m4a')">Empathy 3</button>
+  <button onclick="playSound('empathy5.m4a')">Empathy 4</button>
+ 
+
+
+
+
+
+
+
+  <audio id="player"></audio>
+
+  <script>
+    function playSound(file) {
+      const player = document.getElementById('player');
+      player.src = file;
+      player.play();
+    }
+  </script>
+</body>
+</html>
